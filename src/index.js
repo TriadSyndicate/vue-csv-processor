@@ -8,7 +8,7 @@ import VueCsvErrors from './components/VueCsvErrors.vue';
 
 // Utilities
 import { parseCSV } from './utils/csv-parser';
-import { detectEncoding } from './utils/encoding-detector';
+import { detectEncoding, SUPPORTED_ENCODINGS } from './utils/encoding-detector';
 
 // Vue plugin
 import { VueCsvProcessorPlugin } from './plugin';
@@ -23,6 +23,7 @@ export {
   VueCsvErrors,
   parseCSV,
   detectEncoding,
+  SUPPORTED_ENCODINGS,
   VueCsvProcessorPlugin
 };
 
