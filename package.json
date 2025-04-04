@@ -1,6 +1,6 @@
 {
     "name": "vue-csv-processor",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "Vue 3 component library for CSV file processing with encoding detection and preview",
     "main": "dist/vue-csv-processor.umd.js",
     "module": "dist/vue-csv-processor.es.js",
