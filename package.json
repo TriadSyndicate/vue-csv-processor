@@ -1,0 +1,61 @@
+{
+    "name": "vue-csv-processor",
+    "version": "0.1.0",
+    "description": "Vue 3 component library for CSV file processing with encoding detection and preview",
+    "main": "dist/vue-csv-processor.umd.js",
+    "module": "dist/vue-csv-processor.es.js",
+    "types": "dist/types/index.d.ts",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build && vue-tsc --emitDeclarationOnly",
+        "test": "vitest run",
+        "test:watch": "vitest",
+        "lint": "eslint src --ext .ts,.js,.vue",
+        "format": "prettier --write \"src/**/*.{js,ts,vue}\"",
+        "prepublishOnly": "npm run build"
+    },
+    "keywords": [
+        "vue",
+        "vue3",
+        "csv",
+        "import",
+        "processor",
+        "encoding",
+        "utf8",
+        "international"
+    ],
+    "author": "Triad-UwU",
+    "license": "MIT",
+    "peerDependencies": {
+        "vue": "^3.2.0"
+    },
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^5.0.0",
+        "@typescript-eslint/parser": "^5.0.0",
+        "@vitejs/plugin-vue": "^4.0.0",
+        "@vue/eslint-config-typescript": "^11.0.0",
+        "@vue/test-utils": "^2.0.0",
+        "eslint": "^8.0.0",
+        "eslint-plugin-vue": "^9.0.0",
+        "prettier": "^2.0.0",
+        "typescript": "^4.0.0",
+        "vite": "^4.0.0",
+        "vitest": "^0.30.0",
+        "vue-tsc": "^1.0.0"
+    },
+    "dependencies": {
+        "papaparse": "^5.4.0",
+        "terser": "^5.39.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/TriadSyndicate/vue-csv-processor.git"
+    },
+    "bugs": {
+        "url": "https://github.com/TriadSyndicate/vue-csv-processor/issues"
+    },
+    "homepage": "https://github.com/TriadSyndicate/vue-csv-processor#readme"
+}
